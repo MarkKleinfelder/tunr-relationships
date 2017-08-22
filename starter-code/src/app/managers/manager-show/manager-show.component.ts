@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute }   from '@angular/router';
 import { ManagersService } from '../managers.service';
 
+//import { ArtistShowComponent } from '../artist-show/artist-show.component'
+
 @Component({
   selector: 'app-manager-show',
   templateUrl: './manager-show.component.html',
@@ -10,6 +12,7 @@ import { ManagersService } from '../managers.service';
 export class ManagerShowComponent implements OnInit {
 
 	oneManager;
+
 
   constructor(
   	private route : ActivatedRoute,
